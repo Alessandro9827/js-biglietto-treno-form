@@ -11,7 +11,6 @@
     <title>Biglietteria Online</title>
 </head>
 <body>
-    <form class="row g-3 m-2">
         <div class="col-md-6">
           <label for="inputKm" class="form-label">Km da percorrere</label>
           <input type="number" class="form-control" id="inputKm">
@@ -19,15 +18,14 @@
         <div class="col-md-4">
           <label for="inputAge" class="form-label">Fascia d'età</label>
           <select id="inputAge" class="form-select">
-            <option value="minorenne">Minorenne</option>
-            <option value="maggiorenne">Maggiorenne</option>
-            <option value="over65">Over65</option>
+            <option value="0">Minorenne</option>
+            <option value="1">Maggiorenne</option>
+            <option value="2">Over65</option>
           </select>
         </div>
         <div class="col-12">
           <button type="submit" id="submit" class="btn btn-primary">Calcola</button>
         </div>
-      </form>
 
 
       <pre id="output"></pre>
